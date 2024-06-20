@@ -1,0 +1,123 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+body{
+    background-image: url(https://revistanews.com.br/wp-content/uploads/2018/02/Sala-de-aula-1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-top: 100px;
+}
+
+
+header{
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+    padding: 8px;
+    border: 2px solid white;
+    border-radius: 15px;
+}
+
+
+header img{
+    width: 70px;
+    margin-right: 20px;
+    border-radius: 50%;
+    margin-left: 15px;
+}
+
+header h1{
+    color: white;
+    font-size: 40px;
+    font-weight: bold;
+    margin: 0 auto;
+}
+
+.container{
+    max-width: 980px;
+    width: 100%;
+    margin: 0 auto;
+    background-color: rgba(0, 0, 0, 0.226);
+    padding: 16px;
+    border-radius: 15px;
+}
+
+form{
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto;
+    margin-bottom: 30px;
+
+}
+
+form input{
+    font-size: 24px;
+    background-color: rgb(255, 255, 255);
+    border: none;
+    border-bottom: 2px solid black;
+    padding: 8px;
+}
+
+#atividade{
+    width: 320px;
+    margin-left: 110px;
+}
+
+#nota{
+    width: 140px;
+}
+
+form button{
+    background-color: rgb(39, 227, 39);
+    color: white;
+    font-size: 24px;
+    font-weight: bold;
+    border: none;
+    cursor: pointer;
+    padding: 10px;
+    border-radius: 15px;
+
+    margin-right: 70px;
+
+}
+
+table{
+    width: 100%;
+}
+
+table th{
+    border-bottom: 2px solid white;
+    padding: 16px;
+    font-size: 24px;
+    font-weight: bold;
+    color: white;
+}
+
+table td{
+    color: white;
+    padding: 16px 0;
+    text-align: center;
+    font-size: 18px;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.217);
+}
+
+.resultado{
+    padding: 8px;
+    font-weight: bold;
+    color: white;
+    border-radius: 3px;
+}
+
+.aprovado{
+    background-color: green;
+}
+
+.reprovado{
+    background-color: red;
+}
+
+
